@@ -77,3 +77,5 @@ function gerarCalendario() {
     const dataFormatada = `${data.getDate()}/${data.getMonth() + 1}`;
     return feriados.includes(dataFormatada);
   }  
+
+  function 
