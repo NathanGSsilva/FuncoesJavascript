@@ -25,7 +25,5 @@ document.addEventListener("DOMContentLoaded", async function(){
         obsUL.appendChild(obsLI)
 
     });
- 
-
 }
 );
