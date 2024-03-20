@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encontre seu endereço</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="back">
+            <form action="">
+                <p id="titulo-cep">DIGITE SEU CEP</p>
+                <div id="busca-cep">
+                    <p>
+                        <input type="text" name="cepe" id="cep">
+                    </p>
+                    <button onclick="teste()" type="submit" class="botaoBusca">CONSULTAR</button>
+
+                </div>
+                <hr>
+            </form>
+
+            <div id="resultado">
+                <div id="logradouro">
+                    <br>
+                    <strong>Logradouro:</strong>
+                </div>
+                <br>
+                <div id="complemento">
+                    <strong>Complemento:</strong>
+                </div>
+                <br>
+                <div id="bairro">
+                    <strong>Bairro:</strong>
+                </div>
+                <br>
+                <div id="localidade">
+                    <strong>Cidade:</strong>
+                </div>
+                <br>
+                <div id="uf">
+                    <strong>UF:</strong>
+                </div>
+                <br>
+                <div id="ddd">
+                    <strong>DDD:</strong>
+                </div>
+
+            </div>
+            <div id="endereco2">
+                <a href="../porEndereco/index2.html">Consulte por endereço</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

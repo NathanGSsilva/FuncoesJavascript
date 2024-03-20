@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encontre seu endereço</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="back">
+            <form action="">
+                <p id="titulo-cep">DIGITE UM ENDEREÇO</p>
+                <div id="busca-cep2">
+                    <p>
+                        <label for="estado">ESTADO:</label>
+                        <select name="estado" id="estado" placeholder="SP">
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="cidade">CIDADE:</label>
+                        <input type="text" name="cidade" id="cidade">
+                    </p>
+                    <p>
+                        <label for="rua">RUA:</label>
+                        <input type="text" name="rua" id="rua">
+                    </p>
+
+                    <button onclick="teste()" type="submit" class="botaoBusca">BUSCAR</button>
+                    <button type="reset" class="botaoBusca">LIMPAR</button>
+
+                </div>
+
+                <hr>
+
+                <div id="resultado">
+                    <br>
+                    <div id="cep">
+                        <br>
+                        <strong>Cep:</strong>
+                    </div>
+                    <div id="logradouro">
+                        <br>
+                        <strong>Logradouro:</strong>
+                    </div>
+                    <br>
+                    <div id="complemento">
+                        <strong>Complemento:</strong>
+                    </div>
+                    <br>
+                    <div id="bairro">
+                        <strong>Bairro:</strong>
+                    </div>
+                    <br>
+                    <div id="localidade">
+                        <strong>Cidade:</strong>
+                    </div>
+                    <br>
+                    <div id="uf">
+                        <strong>UF:</strong>
+                    </div>
+                    <br>
+                    <div id="ddd">
+                        <strong>DDD:</strong>
+                    </div>
+            </form>
+            <div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+
+</html>
